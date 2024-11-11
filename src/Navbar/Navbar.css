@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height:60px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.left-side-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+
+.left-side-navbar img{
+    border-radius: 50%;
+}
+
+.title{
+    font-weight:800;
+    font-size:15px;
+    font-family: arial;
+}
+
+.search-bar{
+    border-radius: 25px;
+    width:400px;
+    gap:15px;
+    padding:10px;
+    margin-left: 10px;
+}
+
+
+
+.right-side-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    flex-direction: row;
+    gap:18px;
+    margin-top: -30px;
+}
+
+.green-dot{
+    color: rgb(10, 207, 10);
+    font-size: 55px;
+}
+
+.icons{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.moon{
+    display: flex;
+    margin-left:20px;
+}
+
+.bell{
+    display: flex;
+    margin-left:20px;
+}
+
+.gear{
+    display: flex;
+    margin-left:20px;
+}
