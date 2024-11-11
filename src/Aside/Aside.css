@@ -1,0 +1,18 @@
+.side-panel{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: column;
+    color: gray;
+    width: 150px;
+    margin: 50px;
+    
+}
+
+.side-panel-elem{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    cursor: pointer;
+    margin: 10px;
+}

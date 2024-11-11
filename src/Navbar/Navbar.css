@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height:60px;
@@ -13,7 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:10px
+    gap:10px;
+    margin-left: 30px;
 }
 
 .left-side-navbar img{
@@ -40,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 100px;
 }
 
 .user{

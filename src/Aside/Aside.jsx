@@ -24,6 +24,7 @@ const Aside = () => {
             </div>
             <div className="side-panel-elem">
                 <div>UI Demands</div>
+                <FontAwesomeIcon icon={faGauge} />
             </div>
         
             <div className="side-panel-elem">
